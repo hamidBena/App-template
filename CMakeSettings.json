@@ -12,6 +12,11 @@
       "ctestCommandArgs": "",
       "variables": [
         {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "C:/Users/CE PC/vcpkg/scripts/buildsystems/vcpkg.cmake",
+          "type": "PATH"
+        },
+        {
           "name": "CMAKE_INSTALL_PREFIX",
           "value": "",
           "type": "PATH"

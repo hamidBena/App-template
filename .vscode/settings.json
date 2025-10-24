@@ -88,14 +88,15 @@
 		"queue": "cpp",
 		"set": "cpp",
 		"typeindex": "cpp",
-		"stack": "cpp"
+		"stack": "cpp",
+		"mutex": "cpp",
+		"stop_token": "cpp",
+		"unordered_set": "cpp"
 	},
 	"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-	"C_Cpp.errorSquiggles": "disabled",
-
-	// 🚀 Add this block so CMake uses vcpkg
-	"cmake.configureSettings": {
-		"CMAKE_TOOLCHAIN_FILE": "C:/Users/CE PC/vcpkg/scripts/buildsystems/vcpkg.cmake",
-		"VCPKG_TARGET_TRIPLET": "x64-windows"
-	}
+	"C_Cpp.errorSquiggles": "enabled",
+	
+	"C_Cpp.intelliSenseEngine": "default",
+	"C_Cpp.default.compilerPath": "C:/Program Files/LLVM/bin/clang-cl.exe",
+	"C_Cpp.default.intelliSenseMode": "windows-clang-x64"
 }
