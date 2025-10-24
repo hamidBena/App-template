@@ -31,7 +31,6 @@ public:
         CloseButton->setOnClick([](auto& element, auto& duration){
             core::Application::get()->shutdown();
         });
-
     }
 
     virtual void onEvent(const sf::Event& event, sf::RenderWindow& window) override {
